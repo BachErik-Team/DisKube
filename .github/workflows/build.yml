@@ -34,7 +34,7 @@ jobs:
           file: ./Dockerfile
           push: true
           tags: |
-            bacherik/filedownload:${{ github.event_name == 'push' && 'latest' || github.event_name == 'release' && github.event.release.tag_name || 'pr-' }}${{ github.event.pull_request.number || '' }}
+            bacherik/diskube:${{ github.event_name == 'push' && 'latest' || github.event_name == 'release' && github.event.release.tag_name || 'pr-' }}${{ github.event.pull_request.number || '' }}
 
       - name: Logout from DockerHub
         run: docker logout
