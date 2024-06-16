@@ -1,0 +1,7 @@
+services:
+  diskube:
+    image: bacherik/diskube:latest
+    container_name: diskube
+    environment:
+      DISCORD_BOT_TOKEN: "Ihr_Discord_Bot_Token"
+      DISCORD_WEBHOOK: "Ihr_Discord_Webhook"
