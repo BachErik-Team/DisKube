@@ -29,7 +29,7 @@ dependencies {
     implementation("net.dv8tion:JDA:5.0.0-beta.24")
     implementation("ch.qos.logback:logback-classic:1.5.6")
     // https://mvnrepository.com/artifact/io.kubernetes/client-java
-    implementation("io.kubernetes:client-java:20.0.1")
+    implementation("io.kubernetes:client-java:21.0.0")
 
     testImplementation platform('org.junit:junit-bom:5.10.3')
     testImplementation 'org.junit.jupiter:junit-jupiter'
