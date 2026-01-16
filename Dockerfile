@@ -1,4 +1,4 @@
-FROM openjdk:21-jdk
+FROM openjdk:25-jdk
 
 WORKDIR /app
 
